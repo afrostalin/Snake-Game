@@ -1,3 +1,5 @@
+![](https://github.com/afrostalin/Snake-Game/blob/main/Snake.png)
+
 # Snake-Game
 Simple snake game writed on c++ with CRYENGINE 5.6.7
 
