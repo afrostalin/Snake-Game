@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="e7a6901a-3cda-838d-4af5-efde75291f8d">
+ <Files>
+  <File path="sphere.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">232</Detail>
+  <Detail name="vertexCount">272</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./helper_illum.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

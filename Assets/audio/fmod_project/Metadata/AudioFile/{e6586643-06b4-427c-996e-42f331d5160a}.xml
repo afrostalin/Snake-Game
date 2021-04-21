@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{e6586643-06b4-427c-996e-42f331d5160a}">
+		<property name="assetPath">
+			<value>Play_particle_fire_01.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>35.472000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7f44312-a9fa-4b21-947b-ca2f19539e43}</destination>
+		</relationship>
+	</object>
+</objects>

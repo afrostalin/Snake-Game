@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="f96749c1-1e20-4d93-01c4-25f08fa324cf">
+ <Files>
+  <File path="profile.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">Profile</Detail>
+ </Details>
+</AssetMetadata>

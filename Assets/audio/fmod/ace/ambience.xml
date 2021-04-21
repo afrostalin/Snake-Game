@@ -1,0 +1,33 @@
+<AudioSystemData name="ambience" version="5" triggers="6" environments="1">
+ <ImplData events="6" returns="1"/>
+ <Triggers>
+  <Trigger name="Play_ambience_00">
+   <Event name="Ambience/Play_ambience_00"/>
+  </Trigger>
+  <Trigger name="Play_ambience_01">
+   <Event name="Ambience/Play_ambience_01"/>
+  </Trigger>
+  <Trigger name="Play_ambience_02">
+   <Event name="Ambience/Play_ambience_02"/>
+  </Trigger>
+  <Trigger name="Play_ambience_03">
+   <Event name="Ambience/Play_ambience_03"/>
+  </Trigger>
+  <Trigger name="Play_ambience_04">
+   <Event name="Ambience/Play_ambience_04"/>
+  </Trigger>
+  <Trigger name="Play_menu_00">
+   <Event name="Ambience/Play_menu_00"/>
+  </Trigger>
+ </Triggers>
+ <Environments>
+  <Environment name="Reverb">
+   <Bus name="Reverb"/>
+  </Environment>
+ </Environments>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

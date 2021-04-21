@@ -1,0 +1,4 @@
+<Material MtlFlags="526336" Shader="WaterVolume" GenMask="80000008" StringGenMask="" SurfaceType="mat_water" MatTemplate="" Diffuse="0.14412849,0.14412849,0.14412849" Specular="0.035601318,0.035601318,0.035601318" Opacity="1" Shininess="233.07001" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures />
+ <PublicParams DetailNormalsScale="0.389" DetailTilling="4.1500001" EnvCubeScale="20" NormalsFlatten="0.189" NormalsScale="0.086000003" RainTilling="1" SoftIntersectionFactor="3.03" Tilling="0.029999999" VertexWaveScale="0"/>
+</Material>

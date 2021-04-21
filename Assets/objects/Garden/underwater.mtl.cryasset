@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="4904e74e-2c96-17e9-7beb-797e66319123">
+ <Files>
+  <File path="underwater.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%engine%/engineassets/textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,145 @@
+<ForceFeedback>
+	<Patterns>
+		<!-- Pattern definition accepts from 1 to 16 samples -->
+  	<Pattern name="100" samples="1" />
+  	<Pattern name="75" samples="0.75" />
+  	<Pattern name="50" samples="0.5" />
+  	<Pattern name="30" samples="0.3" />
+  	<Pattern name="20" samples="0.2" />
+  	<Pattern name="12" samples="0.12" />
+		<Pattern name="square" samples="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0" />
+		<Pattern name="triangle" samples="0,0.15,0.3,0.45,0.6,0.75,0.9,1,1,0.9,0.75,0.6,0.45,0.3,0.15,0" />
+	</Patterns>
+	<Envelopes>
+		<!-- Envelope definition accepts from 1 to 8 samples -->
+		<Envelope name="linearDecrease" samples="1,0" />
+		<Envelope name="Gate" samples="1,1,1,1,1,1,1,0" />
+  	<Envelope name="CosineDecrease" samples="1,0.98,0.92,0.83,0.69,0.54,0.25,0" />
+		<Envelope name="constant" samples="1" />
+		<Envelope name="50constant" samples="0.5" />
+  	<Envelope name="Gausscharge" samples="0,0,0,0,1,1,1,1" />
+	</Envelopes>
+	<Effects>
+		
+		
+    
+<!-- mfx presets -->
+    <Effect name="explosion" time="1.0" >
+      <MotorAB frequency="1" pattern="100" envelope="linearDecrease" /> 
+    </Effect>
+    <Effect name="smallexplosion" time="1.0" >
+      <MotorAB frequency="1" pattern="50" envelope="linearDecrease" /> 
+    </Effect>    
+    
+<!-- vehicle presets -->
+    <Effect name="vehicleEngineStarting" time="0.15" >
+      <MotorA frequency="1" pattern="20" envelope="linearDecrease" />
+      <MotorB frequency="1" pattern="50" envelope="linearDecrease" />
+    </Effect>
+    <Effect name="vehicleEnginePowered" time="0.15" >
+      <MotorA frequency="1" pattern="12" envelope="constant" />
+      <!--MotorB frequency="1" pattern="12" envelope="constant" /-->
+    </Effect>
+    <Effect name="vehicleCollision" time="0.5" >
+      <MotorA frequency="1" pattern="75" envelope="Gate" />
+      <MotorB frequency="1" pattern="100" envelope="linearDecrease" />
+    </Effect>
+    
+<!-- suit mode presets -->    
+    <Effect name="suitactiveateFF" time="1.5" >
+      <MotorA frequency="1" pattern="30" envelope="linearDecrease" /> 
+    </Effect>
+    <Effect name="suitdeactiveateFF" time="1.5" >
+      <MotorB frequency="1" pattern="12" envelope="CosineDecrease" /> 
+    </Effect>
+    <Effect name="cloakactiveateFF" time="1.5" >
+      <MotorA frequency="1" pattern="20" envelope="linearDecrease" /> 
+    </Effect>
+    <Effect name="cloakactiveFF" time="-1" >
+      <MotorA frequency="1" pattern="12" envelope="constant" /> 
+    </Effect>
+    <Effect name="landFF" time="0.1" >
+      <MotorB frequency="1" pattern="75" envelope="Gate" /> 
+    </Effect>
+    <Effect name="jumpFF" time="0.1" >
+      <MotorB frequency="1" pattern="75" envelope="Gate" /> 
+    </Effect>
+    
+    
+    
+<!-- weapon presets -->
+    <Effect name="weaponfirerapidsmall" time="0.05" >
+      <MotorA frequency="1" pattern="20" envelope="CosineDecrease" />
+      <MotorB frequency="1" pattern="20" envelope="CosineDecrease" />
+    </Effect>
+    <Effect name="weaponfirerapidsmall_slow" time="0.07" >
+      <MotorA frequency="1" pattern="30" envelope="CosineDecrease" />
+      <MotorB frequency="1" pattern="20" envelope="Gate" />
+    </Effect>
+    <Effect name="weaponfirerapidsmall_fast" time="0.05" >
+      <MotorA frequency="1" pattern="50" envelope="Gate" />
+    </Effect>
+    <Effect name="weaponfiresinglesmall" time="0.2" >
+      <MotorA frequency="1" pattern="50" envelope="CosineDecrease" />
+      <MotorB frequency="1" pattern="20" envelope="linearDecrease" />
+    </Effect>
+    
+    
+    <Effect name="weaponfirerapidmedium" time="0.1" >
+      <MotorA frequency="1" pattern="20" envelope="CosineDecrease" />
+      <MotorB frequency="1" pattern="30" envelope="CosineDecrease" />
+    </Effect>
+    <Effect name="weaponfiresinglemedium" time="0.2" >
+      <MotorA frequency="1" pattern="50" envelope="CosineDecrease" />
+      <MotorB frequency="1" pattern="20" envelope="linearDecrease" />
+    </Effect>
+    
+    <Effect name="weaponfirerapidheavy" time="0.12" >
+      <MotorA frequency="1" pattern="20" envelope="CosineDecrease" />
+      <MotorB frequency="1" pattern="50" envelope="CosineDecrease" />
+    </Effect>
+    <Effect name="weaponfiresingleheavy" time="0.2" >
+      <MotorA frequency="1" pattern="50" envelope="CosineDecrease" />
+      <MotorB frequency="1" pattern="50" envelope="CosineDecrease" />
+    </Effect>
+    
+
+    <Effect name="weaponfiresinglegauss" time="1" >
+      <MotorA frequency="1" pattern="75" envelope="Gausscharge" />
+      <MotorB frequency="1" pattern="50" envelope="linearDecrease" />
+    </Effect>
+    <Effect name="weaponfiresinglemassive" time="0.5" >
+      <MotorA frequency="1" pattern="75" envelope="linearDecrease" />
+      <MotorB frequency="1" pattern="75" envelope="linearDecrease" />
+    </Effect>
+    
+    
+    <Effect name="reloadsmallFF" time="0.1" >
+      <MotorB frequency="1" pattern="30" envelope="Gate" /> 
+    </Effect>
+    <Effect name="reloadshortFF" time="0.1" >
+      <MotorA frequency="1" pattern="30" envelope="Gate" />
+      <MotorB frequency="1" pattern="30" envelope="linearDecrease" /> 
+    </Effect>
+
+
+
+
+<!-- generic presets -->    
+    <Effect name="weakFF" time="0.5" >
+      <MotorAB frequency="1" pattern="12" envelope="linearDecrease" /> 
+    </Effect>
+    <Effect name="mediumFF" time="0.5" >
+      <MotorB frequency="1" pattern="50" envelope="linearDecrease" /> 
+    </Effect>
+    <Effect name="strongFF" time="0.5" >
+      <MotorAB frequency="1" pattern="100" envelope="linearDecrease" /> 
+    </Effect>
+    <Effect name="empty_effect" time="0.0" >
+      <!--MotorAB frequency="0 pattern="0" envelope="linearDecrease" /--> 
+    </Effect>    
+    
+
+    
+	</Effects>
+</ForceFeedback>

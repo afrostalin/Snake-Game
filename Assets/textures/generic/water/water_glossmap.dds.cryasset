@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="bc646db5-b0fe-3f30-55dc-1b58a45afee4" source="water_glossmap.tif">
+ <Files>
+  <File path="water_glossmap.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

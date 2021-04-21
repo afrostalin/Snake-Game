@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="b74bcaf9-efda-3df4-f6bb-889da614dfc9" source="" timestamp="1594153116">
+ <Files>
+  <File path="jungle.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/terrain/grass_04.dds</Path>
+ </Dependencies>
+</AssetMetadata>

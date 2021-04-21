@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f7d10fb8-20b6-cc1a-6cc9-12c934502e96" source="defaultnouvs.tif">
+ <Files>
+  <File path="defaultnouvs.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

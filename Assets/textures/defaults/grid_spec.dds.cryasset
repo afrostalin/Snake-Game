@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f3704fd5-7c6a-d5dc-ef11-4d3cc35e55bb" source="grid_spec.tif">
+ <Files>
+  <File path="grid_spec.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

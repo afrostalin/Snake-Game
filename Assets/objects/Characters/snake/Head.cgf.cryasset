@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="55bb01df-a51d-bceb-6755-a5b722ed145c">
+ <Files>
+  <File path="Head.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">2050</Detail>
+  <Detail name="vertexCount">6015</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Characters/snake/Snake.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

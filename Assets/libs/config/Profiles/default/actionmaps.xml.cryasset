@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="c65c3d52-e044-d4b1-043f-337c9601f52c">
+ <Files>
+  <File path="actionmaps.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">ActionMaps</Detail>
+ </Details>
+</AssetMetadata>

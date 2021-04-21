@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="330f0e06-1396-efed-8ffa-e17406522254" source="apple.fbx">
+ <Files>
+  <File path="apple.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">6368</Detail>
+  <Detail name="vertexCount">4810</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Other/apple.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

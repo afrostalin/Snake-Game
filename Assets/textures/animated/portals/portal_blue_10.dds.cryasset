@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="7d9275d3-3b4d-009d-b28e-54bbfd25ca90" source="portal_blue_10.tif">
+ <Files>
+  <File path="portal_blue_10.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

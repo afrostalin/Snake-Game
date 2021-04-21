@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="33d5ab47-a53d-e400-24d4-882ab8291c88">
+ <Files>
+  <File path="bush_fern_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">1452</Detail>
+  <Detail name="vertexCount">4356</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vegie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

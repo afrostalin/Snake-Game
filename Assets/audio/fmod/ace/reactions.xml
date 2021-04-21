@@ -1,0 +1,19 @@
+<AudioSystemData name="reactions" version="5" triggers="3">
+ <ImplData events="3"/>
+ <Triggers>
+  <Trigger name="Play_react_death_from_wall">
+   <Event name="Reactions/Play_react_death_from_wall"/>
+  </Trigger>
+  <Trigger name="Play_reatc_death_from_punch">
+   <Event name="Reactions/Play_reatc_death_from_punch"/>
+  </Trigger>
+  <Trigger name="Play_react_death_from_hungry">
+   <Event name="Reactions/Play_react_death_from_hungry"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

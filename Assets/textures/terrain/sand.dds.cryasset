@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b2dc4a61-914a-3e8f-f7af-1be479552709" source="sand.tif">
+ <Files>
+  <File path="sand.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="fff295cc-43ea-374d-3fa0-f12e8756091b">
+ <Files>
+  <File path="FlownodeBlacklist.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">Blacklist</Detail>
+ </Details>
+</AssetMetadata>

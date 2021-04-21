@@ -1,0 +1,34 @@
+<AudioSystemData name="preloads" version="5" preloads="8" files="8">
+ <ImplData banks="8"/>
+ <Preloads>
+  <PreloadRequest name="Ambience" type="autoload">
+   <File name="Ambience.bank"/>
+  </PreloadRequest>
+  <PreloadRequest name="Ambience.assets" type="autoload">
+   <File name="Ambience.assets.bank"/>
+  </PreloadRequest>
+  <PreloadRequest name="Actions" type="autoload">
+   <File name="Actions.bank"/>
+  </PreloadRequest>
+  <PreloadRequest name="Actions.assets" type="autoload">
+   <File name="Actions.assets.bank"/>
+  </PreloadRequest>
+  <PreloadRequest name="Reactions.assets" type="autoload">
+   <File name="Reactions.assets.bank"/>
+  </PreloadRequest>
+  <PreloadRequest name="Reactions" type="autoload">
+   <File name="Reactions.bank"/>
+  </PreloadRequest>
+  <PreloadRequest name="Particles.assets" type="autoload">
+   <File name="Particles.assets.bank"/>
+  </PreloadRequest>
+  <PreloadRequest name="Particles" type="autoload">
+   <File name="Particles.bank"/>
+  </PreloadRequest>
+ </Preloads>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

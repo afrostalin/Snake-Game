@@ -1,0 +1,36 @@
+<Prefab Name="egypt_torch" Id="afec18e4-4e49-8bca-0423-d72a9b00c1a1" Library="prefabs/egypt_torch" Version="1">
+ <Objects>
+  <Object Type="EntityWithParticleComponent" Layer="Architecture" LayerGUID="2b1f0127-1c85-d7db-70c2-d41cf17a76b2" Id="9956641a-1aba-4153-58a8-006784983776" Name="fire_torch" Pos="0.0038299561,-0.20069885,0.28204727" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Properties />
+   <Components>
+    <Component CryXmlVersion="2" TypeGUID="7925bc64-521f-4a2a-9068-c9c9a1d3499e" TypeName="Cry::DefaultComponents::CParticleComponent" GUID="45dc87c2-3edb-8005-de84-c2515408bf0d" Name="" UserAdded="true">
+     <Transform>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </Transform>
+     <properties Enabled="true" FilePath="Particles/fire_small.pfx">
+      <Attributes>
+       <Attributes />
+      </Attributes>
+      <Features />
+      <SpawnParams prime="false" scale="1" countScale="1" speedScale="1" timeScale="1" spec="Default" ignoreVvisAreas="false" ignoreTerrainBlend="true" ignoreDecalBlend="true" seed="-1"/>
+     </properties>
+    </Component>
+   </Components>
+  </Object>
+  <Object Type="Brush" Layer="Architecture" LayerGUID="2b1f0127-1c85-d7db-70c2-d41cf17a76b2" Id="6eb99fa0-a287-4cb3-75e5-fe720f067d28" Name="torch-1" Pos="-0.0038299561,0.20069885,-0.28204918" Rotate="0.95371693,0.30070582,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="Objects/Egypth/torch.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+   <CollisionFiltering />
+  </Object>
+ </Objects>
+</Prefab>

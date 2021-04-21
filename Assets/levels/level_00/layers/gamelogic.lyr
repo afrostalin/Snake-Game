@@ -1,0 +1,33 @@
+<ObjectLayer>
+ <Layer Name="GameLogic" FullName="GameLogic" GUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1619033653">
+  <LayerObjects>
+   <Object Type="Prefab" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="14d57a15-5ab0-3e07-b68c-bdcd25eaff0c" Name="asian_pillar_light-1" Pos="55,27,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="56575" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" PrefabGUID="5139124b-f4e8-1c32-4458-7ca2df9c3637" PrefabName="prefabs/asian_pillar_light.asian_pillar_light"/>
+   <Object Type="Prefab" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="6d4bd05f-46d4-cd02-b87a-be60f732434a" Name="asian_pillar_light-2" Pos="55,35,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="56575" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" PrefabGUID="5139124b-f4e8-1c32-4458-7ca2df9c3637" PrefabName="prefabs/asian_pillar_light.asian_pillar_light"/>
+   <Object Type="EntityWithComponent" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="db230f43-30c4-7134-468f-c446e191bbf5" Name="GameRules" Pos="29.475769,32.231201,73.586632" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="872f80f6-4906-4eb7-80d3-c81d3dda463e" TypeName="Snake::CGameRules" GUID="5da53e3c-e7ac-a8c4-fac8-2069848dca86" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Type="Default"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Prefab" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="d37b0760-d70d-5357-c009-cd3127512aaa" Name="fireplace_00-1" Pos="61,35,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="56575" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" PrefabGUID="6c9b6d8e-133a-c224-e65c-a36b6b5695fa" PrefabName="prefabs/fireplace_00.fireplace_00"/>
+   <Object Type="Prefab" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="0de02bf2-d216-2122-caef-cd10cf1ce865" Name="fireplace_00-2" Pos="61,27,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="56575" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" PrefabGUID="6c9b6d8e-133a-c224-e65c-a36b6b5695fa" PrefabName="prefabs/fireplace_00.fireplace_00"/>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

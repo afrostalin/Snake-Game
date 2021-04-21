@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="78c4ea79-2e39-cc63-6b7d-1793a070b636" timestamp="1578502173">
+ <Files>
+  <File path="portal_blue.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/animated/portals/portal_blue_##00_18(0.2).dds</Path>
+ </Dependencies>
+</AssetMetadata>

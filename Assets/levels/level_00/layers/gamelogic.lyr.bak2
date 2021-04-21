@@ -1,0 +1,95 @@
+<ObjectLayer>
+ <Layer Name="GameLogic" FullName="GameLogic" GUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1588323515">
+  <LayerObjects>
+   <Object Type="Prefab" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="14d57a15-5ab0-3e07-b68c-bdcd25eaff0c" Name="asian_pillar_light-1" Pos="55,27,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="56575" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" PrefabGUID="5139124b-f4e8-1c32-4458-7ca2df9c3637" PrefabName="prefabs/asian_pillar_light.asian_pillar_light"/>
+   <Object Type="EntityWithComponent" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="e421af65-0dc0-b18a-c68a-295e4dccfb0b" Name="Portal_1-2" Pos="3,61,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="7a09ac66-7a42-4c73-a846-6c04c64c0bb4" TypeName="Snake::CPortal" GUID="43db0f96-4a87-0912-f6db-37895640d7dd" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties>
+       <Direction x="0" y="-1" z="0"/>
+       <Aligned x="3" y="61" z="32.3531"/>
+      </properties>
+     </Component>
+    </Components>
+    <EntityLinks>
+     <Link TargetId="48d76e29-f655-72d0-63d9-7056ada5eb23" Name="Portal_1-3" Version="1"/>
+    </EntityLinks>
+   </Object>
+   <Object Type="Brush" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="3ebc1af0-e909-1331-c78c-41b752d94c0d" Name="primitive_plane-2" Pos="2.9894323,61.604149,32.805786" Rotate="0.70710611,0.70710748,-4.4324924e-08,4.5100043e-07" Scale="2.4095728,2.4095731,2.4095728" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="Textures/animated/portals/portal_blue" MinSpec="0" MatLayersMask="0" Prefab="%engine%/engineassets/objects/primitive_plane.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Prefab" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="6d4bd05f-46d4-cd02-b87a-be60f732434a" Name="asian_pillar_light-2" Pos="55,35,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="56575" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" PrefabGUID="5139124b-f4e8-1c32-4458-7ca2df9c3637" PrefabName="prefabs/asian_pillar_light.asian_pillar_light"/>
+   <Object Type="EntityWithComponent" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="48d76e29-f655-72d0-63d9-7056ada5eb23" Name="Portal_1-3" Pos="61,31,32.3531" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="7a09ac66-7a42-4c73-a846-6c04c64c0bb4" TypeName="Snake::CPortal" GUID="43db0f96-4a87-0912-f6db-37895640d7dd" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties>
+       <Direction x="-1" y="0" z="0"/>
+       <Aligned x="61" y="31" z="32.3531"/>
+      </properties>
+     </Component>
+    </Components>
+    <EntityLinks>
+     <Link TargetId="e421af65-0dc0-b18a-c68a-295e4dccfb0b" Name="Portal_1-2" Version="1"/>
+    </EntityLinks>
+   </Object>
+   <Object Type="Brush" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="b4f62199-5d90-94db-c32f-a18a4c9a0527" Name="primitive_plane-3" Pos="62.538963,30.986647,32.901287" Rotate="-0.49999988,-0.5000003,0.50000042,0.4999994" Scale="2.4095728,2.4095731,2.4095728" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="Textures/animated/portals/portal_blue" MinSpec="0" MatLayersMask="0" Prefab="%engine%/engineassets/objects/primitive_plane.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EntityWithComponent" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="db230f43-30c4-7134-468f-c446e191bbf5" Name="GameRules" Pos="29.475769,32.231201,73.586632" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="872f80f6-4906-4eb7-80d3-c81d3dda463e" TypeName="Snake::CGameRules" GUID="5da53e3c-e7ac-a8c4-fac8-2069848dca86" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Type="Default"/>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

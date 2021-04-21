@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="51aef107-13da-d22b-c5a1-2e87ad383d2e">
+ <Files>
+  <File path="fireplace_01.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">10480</Detail>
+  <Detail name="vertexCount">11894</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fireplace_material.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

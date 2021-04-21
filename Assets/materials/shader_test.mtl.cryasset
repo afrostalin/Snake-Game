@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="835a8f2e-9699-b067-d19e-6b2bba3a2dea" source="" timestamp="1595188877">
+ <Files>
+  <File path="shader_test.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/generic/brick/egypt_pyramid_brik.dds</Path>
+ </Dependencies>
+</AssetMetadata>

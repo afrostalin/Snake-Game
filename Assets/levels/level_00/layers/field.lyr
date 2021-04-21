@@ -1,0 +1,128 @@
+<ObjectLayer>
+ <Layer Name="Field" FullName="Field" GUID="629e150f-e970-86b4-ffb7-0924918b71ed" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1619033653">
+  <LayerObjects>
+   <Object Type="EntityWithComponent" Layer="Field" LayerGUID="629e150f-e970-86b4-ffb7-0924918b71ed" Id="b20ef0f7-c2ae-f087-78de-5e8946db1b15" Name="Point_A" Pos="2,1.9999999,32.353065" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="4486bd12-351a-4db7-bbc7-beaaca863c7d" TypeName="Snake::CFieldCornerPoint" GUID="c83550ba-2077-3349-d665-6004a41f4de3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="Field" LayerGUID="629e150f-e970-86b4-ffb7-0924918b71ed" Id="86ff30a1-fe0d-68b6-9313-44b9d9ce35da" Name="Field" Pos="31.579029,31.268517,59.380505" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="461670af-faa9-4158-a0f4-cd952a5424de" TypeName="Snake::CField" GUID="12ccf3b1-5be0-d1b3-5936-dd06f21e67b3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties DebugSpawnPoints="false" DebugFieldLines="false" DebugBarriers="false" DebugBorders="false" DebugAvailableSpawns="false"/>
+     </Component>
+    </Components>
+    <EntityLinks>
+     <Link TargetId="c9eb396f-9d84-36ba-e6bc-dca18dc6b332" Name="Point_A" Version="1"/>
+     <Link TargetId="c9eb396f-9d84-36ba-e6bc-dca18dc6b332" Name="Point_A" Version="1"/>
+     <Link TargetId="b20ef0f7-c2ae-f087-78de-5e8946db1b15" Name="Point_A-2" Version="1"/>
+     <Link TargetId="aca4b3f2-e64a-2bdc-bdbe-d7f4a812a6b6" Name="Point_C" Version="1"/>
+     <Link TargetId="df98e222-0335-b770-a547-f4f3142a16c3" Name="Point_D" Version="1"/>
+    </EntityLinks>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="Field" LayerGUID="629e150f-e970-86b4-ffb7-0924918b71ed" Id="df98e222-0335-b770-a547-f4f3142a16c3" Name="Point_D" Pos="62,2,32.353065" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="4486bd12-351a-4db7-bbc7-beaaca863c7d" TypeName="Snake::CFieldCornerPoint" GUID="c83550ba-2077-3349-d665-6004a41f4de3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="Field" LayerGUID="629e150f-e970-86b4-ffb7-0924918b71ed" Id="c9eb396f-9d84-36ba-e6bc-dca18dc6b332" Name="Point_B" Pos="2,62,32.353065" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="4486bd12-351a-4db7-bbc7-beaaca863c7d" TypeName="Snake::CFieldCornerPoint" GUID="c83550ba-2077-3349-d665-6004a41f4de3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="Field" LayerGUID="629e150f-e970-86b4-ffb7-0924918b71ed" Id="aca4b3f2-e64a-2bdc-bdbe-d7f4a812a6b6" Name="Point_C" Pos="62,62,32.353065" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="4486bd12-351a-4db7-bbc7-beaaca863c7d" TypeName="Snake::CFieldCornerPoint" GUID="c83550ba-2077-3349-d665-6004a41f4de3" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

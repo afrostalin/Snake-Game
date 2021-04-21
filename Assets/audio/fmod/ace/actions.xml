@@ -1,0 +1,16 @@
+<AudioSystemData name="actions" version="5" triggers="2">
+ <ImplData events="2"/>
+ <Triggers>
+  <Trigger name="Play_action_eating_00">
+   <Event name="Actions/Play_action_eating_00"/>
+  </Trigger>
+  <Trigger name="Play_action_timer">
+   <Event name="Actions/Play_action_timer"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

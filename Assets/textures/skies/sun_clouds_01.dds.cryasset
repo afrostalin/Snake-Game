@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="99c00b0a-b483-4254-3507-6aa756052c32" source="sun_clouds_01.tif">
+ <Files>
+  <File path="sun_clouds_01.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4197</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

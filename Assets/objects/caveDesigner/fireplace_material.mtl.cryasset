@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="0a2f52a1-93e3-7bf6-0c1c-0ebf6aeb9a63" timestamp="1578849217">
+ <Files>
+  <File path="fireplace_material.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">%engine%/engineassets/textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="4a7c7f60-6adb-0240-9a2e-56ae625226b5">
+ <Files>
+  <File path="helper_illum.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>%engine%/EngineAssets/TextureMsg/color_white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

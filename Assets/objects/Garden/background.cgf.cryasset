@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c4be3a79-5d80-69ed-e893-76678f2646a1">
+ <Files>
+  <File path="background.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">960</Detail>
+  <Detail name="vertexCount">2880</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./background.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

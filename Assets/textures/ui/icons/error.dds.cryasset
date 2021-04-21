@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="10756ae5-9c68-6615-3330-a2f2664f650a" source="error.tif">
+ <Files>
+  <File path="error.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">225</Detail>
+  <Detail name="height">225</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

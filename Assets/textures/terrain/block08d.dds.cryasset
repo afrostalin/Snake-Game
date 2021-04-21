@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="1e2a2e04-49ac-5706-dad3-2bdc6f2c6966" source="block08d.tif">
+ <Files>
+  <File path="block08d.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

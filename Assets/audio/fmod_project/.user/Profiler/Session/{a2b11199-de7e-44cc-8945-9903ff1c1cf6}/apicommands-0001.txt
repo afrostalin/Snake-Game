@@ -1,0 +1,53 @@
+Playback::frame, 0
+Playback::version, 2, 131078
+#
+# FMOD v2.00.06 command capture
+#   System::setSoftwareChannels(numsoftwarechannels: 64)
+#   System::setDSPBufferSize(bufferlength: 1024, numbuffers: 4)
+#   System::setSoftwareFormat(samplerate: 48000, speakermode: 3, numrawspeakers: 2)
+#   System::setAdvancedSettings(settings: {maxMPEGCodecs: 0, maxADPCMCodecs: 0, maxXMACodecs: 0, maxVorbisCodecs: 0, maxAT9Codecs: 0, maxFADPCMCodecs: 0, maxPCMCodecs: 0,
+#       ASIONumChannels: 0, vol0virtualvol: 0, defaultDecodeBufferSize: 400, geometryMaxFadeTime: 0,
+#       distanceFilterCenterFreq: 1500, reverb3Dinstance: 0, DSPBufferPoolSize: 8, stackSizeStream: 98304, stackSizeNonBlocking: 98304, stackSizeMixer: 81920,
+#       resamplerMethod: 2, commandQueueSize: 0, randomSeed: 0})
+#   Studio::System::setAdvancedSettings(settings: {commandqueuesize: 32768, handleinitialsize: 65536, studioupdateperiod: 20, idlesampledatapoolsize: 262144})
+#   Studio::System::initialize(maxchannels: 512, studioflags: 0x00000005, flags: 0x00030000)
+#
+Playback::frame, 0
+# Printing initial instance state
+System::loadBankCustom, {}, 0, 2097152
+Playback::loadBankFinished, {13168a58-8346-4686-8f37-bf5666ebd944}, 2097152, 0
+Bank::getBusListItem, 2097152, 0, {5da1ead3-7aac-4839-a2cc-b77d0858af35}, 2097664
+Bank::getBusListItem, 2097152, 1, {9d30e89b-d1ff-4eb2-8dce-c6947e974d9f}, 2097920
+Bus::setMute, 2097920, true
+System::loadBankCustom, {}, 0, 2097408
+Playback::loadBankFinished, {8b0baa8c-f23d-0ac4-097e-35a89718dfdc}, 2097408, 0
+System::loadBankCustom, {}, 0, 2098176
+Playback::loadBankFinished, {a8e9d922-322f-06b6-1574-77dbaa47dc84}, 2098176, 0
+System::loadBankCustom, {}, 0, 2098432
+Playback::loadBankFinished, {e854bfe6-66ac-0de6-2fa2-f9eddaa8d40e}, 2098432, 0
+System::loadBankMemory, 00000223C0862860, 1384, 1, 0, 2098688
+Playback::loadBankFinished, {eb9d2bfd-2400-4168-84de-2a37aba3742a}, 2098688, 0
+Bank::getEventListItem, 2098688, 0, {7357c027-05b9-42e4-9974-9c4449512cd4}, 2099200
+System::loadBankCustom, {}, 0, 2098944
+Playback::loadBankFinished, {10df1e43-c1ea-0a08-244b-6c8c17e07960}, 2098944, 0
+System::setNumListeners, 8
+System::setListenerAttributes, 0, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+System::setListenerAttributes, 1, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+System::setListenerAttributes, 2, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+System::setListenerAttributes, 3, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+System::setListenerAttributes, 4, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+System::setListenerAttributes, 5, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+System::setListenerAttributes, 6, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+System::setListenerAttributes, 7, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+# Finished printing initial instance state
+Playback::frame, 390144
+EventDescription::createInstance, 2099200, 2099712
+EventInstance::setListenerMask, 2099712, 2
+EventInstance::set3DAttributes, 2099712, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 0
+EventInstance::getChannelGroup, 2099712, 0000022493565828
+EventInstance::start, 2099712
+Playback::frame, 2048
+EventInstance::stop, 2099712, 1
+Playback::frame, 0
+EventInstance::release, 2099712

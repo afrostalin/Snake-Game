@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="a217d9a4-6b33-1161-a135-87f06e8f93ea" timestamp="1541670018">
+ <Files>
+  <File path="chinesegarden.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">35</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="35">%engine%/engineassets/textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

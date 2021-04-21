@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f28c1b45-3805-7083-14be-0ced68270efc" source="cartoon_terrain_sand.tif">
+ <Files>
+  <File path="cartoon_terrain_sand.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

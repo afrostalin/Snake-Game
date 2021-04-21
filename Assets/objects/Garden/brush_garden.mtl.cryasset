@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="c48581e3-bb67-6f87-cc97-b2db779cf2dd" timestamp="1579115623">
+ <Files>
+  <File path="brush_garden.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">40</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="38">%engine%/engineassets/textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

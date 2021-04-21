@@ -1,0 +1,33 @@
+<Prefab Name="portal_blue" Id="9eb494a7-bbf7-4728-9287-bf9f4a9dad5b" Library="prefabs/portal_blue" Version="1">
+ <Objects>
+  <Object Type="Brush" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="60aea4bd-bad4-0cf1-6d99-45cdb96c615d" Name="primitive_plane-2" Pos="-0.5389626,0.013353348,0.22634125" Rotate="0.49999946,0.50000048,0.50000024,0.49999982" Scale="2.4095728,2.4095731,2.4095728" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="Textures/animated/portals/portal_blue" MinSpec="0" MatLayersMask="0" Prefab="%engine%/engineassets/objects/primitive_plane.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+   <CollisionFiltering />
+  </Object>
+  <Object Type="EntityWithComponent" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="ae9eb741-7013-cad1-7ef3-f82f22dde4aa" Name="Portal_1-2" Pos="0.53896236,-0.013355255,-0.22634506" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Properties />
+   <Components>
+    <Component CryXmlVersion="2" TypeGUID="7a09ac66-7a42-4c73-a846-6c04c64c0bb4" TypeName="CPortal" GUID="43db0f96-4a87-0912-f6db-37895640d7dd" Name="" UserAdded="true">
+     <Transform>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </Transform>
+     <properties>
+      <Direction x="1" y="0" z="0"/>
+      <Aligned x="3" y="17" z="32.3531"/>
+     </properties>
+    </Component>
+   </Components>
+  </Object>
+ </Objects>
+</Prefab>

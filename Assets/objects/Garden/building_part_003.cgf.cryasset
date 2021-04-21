@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="57a2d75c-4414-d9e0-8d55-4cca5935acdf">
+ <Files>
+  <File path="building_part_003.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">41</Detail>
+  <Detail name="triangleCount">4676</Detail>
+  <Detail name="vertexCount">7836</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./brush_garden.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

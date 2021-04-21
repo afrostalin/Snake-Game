@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="d6074c82-c298-7138-58a0-a599fa1d1f08">
+ <Files>
+  <File path="attributes.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">Attributes</Detail>
+ </Details>
+</AssetMetadata>

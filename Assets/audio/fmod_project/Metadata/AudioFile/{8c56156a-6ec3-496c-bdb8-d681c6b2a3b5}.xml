@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{8c56156a-6ec3-496c-bdb8-d681c6b2a3b5}">
+		<property name="assetPath">
+			<value>eating_apple_00.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.4179591836734694</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7f44312-a9fa-4b21-947b-ca2f19539e43}</destination>
+		</relationship>
+	</object>
+</objects>

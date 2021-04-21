@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="feab475c-5a7c-53cf-b148-87233b62b040">
+ <Files>
+  <File path="grass_patch_d.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">1784</Detail>
+  <Detail name="vertexCount">2975</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vegie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

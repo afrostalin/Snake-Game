@@ -1,0 +1,14 @@
+<ObjectLayer>
+ <Layer Name="Audio" FullName="Audio" GUID="b7f2bdf7-a74b-9d22-b4cf-8e422d64577b" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1578327173">
+  <LayerObjects>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="b7f2bdf7-a74b-9d22-b4cf-8e422d64577b" Id="55bac4b9-ac92-c252-508e-53ca92fd8433" Name="AudioTriggerSpot-1" Pos="34.054718,30.802326,73.292809" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="1009fa03-153c-459c-883d-33b33298813d" guid="ca96eb2f-e08d-6cf1-4438-927388995efc" CryXmlVersion="2" Enabled="true" PlayTrigger="Play_ambience_03" StopTrigger="do_nothing" TriggerAreasOnMove="false" OcclusionType="ignore_state_name" Behavior="single_state_name" MinDelay="0" MaxDelay="1000" DrawActivityRadius="eDrawActivityRadius_Disabled" DrawRandomizationArea="false">
+      <RandomizationArea x="0" y="0" z="0"/>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

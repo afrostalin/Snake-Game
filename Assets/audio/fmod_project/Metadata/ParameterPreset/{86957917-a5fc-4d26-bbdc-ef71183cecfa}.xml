@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{86957917-a5fc-4d26-bbdc-ef71183cecfa}">
+		<property name="name">
+			<value>coming_death</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1fc6065b-4c3c-43f2-aae1-8c7f033d9e3b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3af97bca-a0c4-44c6-981a-fb30899c9305}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3af97bca-a0c4-44c6-981a-fb30899c9305}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

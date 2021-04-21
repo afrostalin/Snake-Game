@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="2cffa5e0-5c8c-a772-97d4-5a5c33542b67" source="egypt_pyramid_brik.tif">
+ <Files>
+  <File path="egypt_pyramid_brik.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

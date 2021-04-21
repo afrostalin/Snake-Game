@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d2a5f73c-2a18-5da8-a540-3849c249ba75">
+ <Files>
+  <File path="bush_fluffy.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">6368</Detail>
+  <Detail name="vertexCount">19072</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vegie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

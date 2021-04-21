@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="85251eaa-2405-ddc4-1c56-bc3019ba5e16" source="sky_3.tif">
+ <Files>
+  <File path="sky_3.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">8096</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

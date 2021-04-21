@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="335a6369-6f08-d1b2-ca07-fb0ec6b48032">
+ <Files>
+  <File path="bamboo_patch_1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">10770</Detail>
+  <Detail name="vertexCount">31944</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vegie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

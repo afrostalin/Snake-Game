@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="79352dce-dc43-a428-d7c0-f6a75f86f2c0" source="" timestamp="1594109066">
+ <Files>
+  <File path="snaketail.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/snake/snake_tail_02.dds</Path>
+ </Dependencies>
+</AssetMetadata>

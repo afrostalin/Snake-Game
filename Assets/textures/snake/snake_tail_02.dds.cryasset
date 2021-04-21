@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="9d0cb345-34c6-c1ed-ad7b-1f7409ac1166" source="snake_tail_02.tif">
+ <Files>
+  <File path="snake_tail_02.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

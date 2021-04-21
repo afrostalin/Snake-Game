@@ -1,0 +1,64 @@
+<Prefab Name="asian_pillar_light" Id="5139124b-f4e8-1c32-4458-7ca2df9c3637" Library="prefabs/asian_pillar_light" Version="1">
+ <Objects>
+  <Object Type="Brush" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="70592d98-80a0-66a1-a3b2-21547cbb999d" Name="light_pillar-2" Pos="0.012054443,0.0090236664,-0.36035919" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="Objects/Garden/light_pillar.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000608">
+   <CollisionFiltering />
+  </Object>
+  <Object Type="EntityWithComponent" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="2df2532e-53fd-d0d5-6b7b-45460920dca0" Name="BarrierPillar-2" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Properties />
+   <Components>
+    <Component CryXmlVersion="2" TypeGUID="370ff550-29cd-4992-8b79-72fe031a7ccb" TypeName="CBarrier" GUID="eb952642-c131-092c-95ca-24f34eb4b06d" Name="" UserAdded="true">
+     <Transform>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </Transform>
+     <properties BBoxSize="1">
+      <Aligned x="55" y="35" z="32.3531"/>
+     </properties>
+    </Component>
+   </Components>
+  </Object>
+  <Object Type="EntityWithComponent" Layer="GameLogic" LayerGUID="26fc201f-0eec-bd05-7ea6-749185afff0a" Id="29939367-661e-dfd6-1712-e7c5c0abfa6b" Name="Entity-17" Pos="0.010177612,-0.0045127869,1.5214386" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Properties />
+   <Components>
+    <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="3a540921-710b-1da8-f489-a4e5f492d865" Name="" UserAdded="true">
+     <Transform>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </Transform>
+     <properties Active="true" Radius="10" ViewDistance="50">
+      <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
+      <Color DiffMult="10" SpecMult="1">
+       <Color r="1" g="1" b="0.49803922" a="1"/>
+      </Color>
+      <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
+      <Options AttenuationBulbSize="0.1" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="None"/>
+      <Animations Style="0" Speed="1"/>
+      <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
+     </properties>
+    </Component>
+   </Components>
+  </Object>
+ </Objects>
+</Prefab>

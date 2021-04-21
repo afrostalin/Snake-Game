@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6a436c28-ac73-acec-5bf7-7a9db7741517">
+ <Files>
+  <File path="lilipad_patch_03.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">108000</Detail>
+  <Detail name="vertexCount">249733</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vegie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

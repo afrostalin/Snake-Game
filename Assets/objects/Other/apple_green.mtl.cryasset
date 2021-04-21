@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="e1037370-c845-21b9-fcc4-860eded4d3ae" timestamp="1578675577">
+ <Files>
+  <File path="apple_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">9</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="9">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

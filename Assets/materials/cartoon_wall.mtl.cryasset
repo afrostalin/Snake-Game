@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="54bfb6db-bcfb-e5f3-764f-201afe108a2d" timestamp="1578079258">
+ <Files>
+  <File path="cartoon_wall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/terrain/cartoon_brick.dds</Path>
+ </Dependencies>
+</AssetMetadata>

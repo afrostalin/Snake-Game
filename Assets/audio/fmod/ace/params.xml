@@ -1,0 +1,28 @@
+<AudioSystemData name="params" version="5" parameters="6">
+ <ImplData parameters="6"/>
+ <Parameters>
+  <Parameter name="master_volume">
+   <Parameter name="master_volume"/>
+  </Parameter>
+  <Parameter name="music_volume">
+   <Parameter name="music_volume"/>
+  </Parameter>
+  <Parameter name="sfx_volume">
+   <Parameter name="sfx_volume"/>
+  </Parameter>
+  <Parameter name="Distance">
+   <Parameter name="Distance"/>
+  </Parameter>
+  <Parameter name="Direction">
+   <Parameter name="Direction"/>
+  </Parameter>
+  <Parameter name="coming_death">
+   <Parameter name="coming_death"/>
+  </Parameter>
+ </Parameters>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

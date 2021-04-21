@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="7da8b5a9-c2e3-ad02-b6fb-7bdd2e7220cc" source="cgskies_0339_free.tif">
+ <Files>
+  <File path="cgskies_0339_free.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">3000</Detail>
+  <Detail name="height">760</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

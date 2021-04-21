@@ -1,0 +1,93 @@
+<Prefab Name="fireplace_00" Id="6c9b6d8e-133a-c224-e65c-a36b6b5695fa" Library="prefabs/fireplace_00" Version="1">
+ <Objects>
+  <Object Type="EntityWithParticleComponent" Layer="Main" LayerGUID="47b97a76-c429-b975-c1a1-464cf0ce1749" Id="cdeda058-6f36-9920-cf61-4a0fc780faec" Name="FireParticle" Pos="-0.23308945,-0.11904144,0.056724548" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Properties />
+   <Components>
+    <Component CryXmlVersion="2" TypeGUID="7925bc64-521f-4a2a-9068-c9c9a1d3499e" TypeName="Cry::DefaultComponents::CParticleComponent" GUID="0a06d3c4-f9f1-33c0-dd71-fccb95be8d44" Name="" UserAdded="true">
+     <Transform>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </Transform>
+     <properties Enabled="true" FilePath="Particles/fire.pfx">
+      <Attributes>
+       <Attributes />
+      </Attributes>
+      <Features />
+      <SpawnParams prime="false" scale="1" countScale="1" speedScale="1" timeScale="1" spec="Default" ignoreVvisAreas="false" ignoreTerrainBlend="true" ignoreDecalBlend="true" seed="-1"/>
+     </properties>
+    </Component>
+   </Components>
+  </Object>
+  <Object Type="EntityWithComponent" Layer="Main" LayerGUID="47b97a76-c429-b975-c1a1-464cf0ce1749" Id="f2fbe16d-e50a-7e76-74b0-296ab44656f4" Name="FireLight" Pos="-0.25004578,-0.15422821,0.79039001" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Properties />
+   <Components>
+    <Component CryXmlVersion="2" TypeGUID="0a86908d-642f-4590-acef-484e8e39f31b" TypeName="Cry::DefaultComponents::CPointLightComponent" GUID="856837a0-0abb-d4c5-3d13-ae5dc505e20a" Name="" UserAdded="true">
+     <Transform>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </Transform>
+     <properties Active="true" Radius="10" ViewDistance="50">
+      <Optics Enable="true" LensFlare="" AttachtToSun="false" FlareFOV="360"/>
+      <Color DiffMult="4.4694791" SpecMult="1">
+       <Color r="0.90196079" g="0.87450981" b="0.05882353" a="1"/>
+      </Color>
+      <Shadows ShadowSpec="None" ShadowBias="1" ShadowSlopeBias="1" ShadownResolution="1" ShadowUpdateMin="4" ShadowMinRes="0" ShadowUpdateRatio="1"/>
+      <Options AttenuationBulbSize="0.1" IgnoreVisAreas="false" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" LinkToSkyColor="false" Ambient="false" FogRadialLobe="0" GIMode="None"/>
+      <Animations Style="39" Speed="1"/>
+      <Shape Shape="Point" TwoSided="false" TexturePath="" Width="1" Height="1"/>
+     </properties>
+    </Component>
+   </Components>
+  </Object>
+  <Object Type="Brush" Layer="Main" LayerGUID="47b97a76-c429-b975-c1a1-464cf0ce1749" Id="1f39413d-67c6-17e5-96d5-766f2e0db1a2" Name="fireplace_01-1" Pos="0.66230011,0.44640923,-0.51998138" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="Objects/caveDesigner/fireplace_01.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000608">
+   <CollisionFiltering />
+  </Object>
+  <Object Type="EntityWithComponent" Layer="Main" LayerGUID="47b97a76-c429-b975-c1a1-464cf0ce1749" Id="456db7aa-620d-dd74-43a2-78c037a2e77c" Name="FirePlaceBarrier" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+   <Properties />
+   <Components>
+    <Component CryXmlVersion="2" TypeGUID="370ff550-29cd-4992-8b79-72fe031a7ccb" TypeName="CBarrier" GUID="3c6b77e1-6856-694a-971d-11bffa805f11" Name="" UserAdded="true">
+     <Transform>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </Transform>
+     <properties BBoxSize="1">
+      <Aligned x="61" y="35" z="32.3531"/>
+     </properties>
+    </Component>
+   </Components>
+  </Object>
+ </Objects>
+</Prefab>

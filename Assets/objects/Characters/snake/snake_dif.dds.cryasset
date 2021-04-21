@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="29cfb6f0-72b6-3bca-ee0d-b1c7773c84b4" source="snake_dif.tif">
+ <Files>
+  <File path="snake_dif.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

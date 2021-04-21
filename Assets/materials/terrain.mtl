@@ -1,0 +1,8 @@
+<Material MtlFlags="526340" Shader="Terrain.Layer" GenMask="200000000" StringGenMask="%TEMP_TERRAIN" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/terrain/cartoon_terrain.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" TileV="0.25"/>
+  </Texture>
+ </Textures>
+ <PublicParams BlendFactor="0" BlendFalloff="1" DetailTextureHighPassRange="15" DetailTextureStrength="1" DetailTextureStrengthFade="1" NormalMapBumpiness="1"/>
+</Material>

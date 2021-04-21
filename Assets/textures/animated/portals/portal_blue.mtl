@@ -1,0 +1,7 @@
+<Material MtlFlags="524320" Shader="Referenceimage" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0,0.057805434,0.60382754,2.256" Opacity="0.99000001" Shininess="255" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/animated/portals/portal_blue_##00_18(0.2).dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+  </Texture>
+ </Textures>
+</Material>

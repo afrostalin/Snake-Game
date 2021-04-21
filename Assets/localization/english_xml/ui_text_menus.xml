@@ -1,0 +1,939 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:u1="urn:schemas-microsoft-com:office:excel2">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Илья Чернецов</LastAuthor>
+  <LastSaved>2020-02-21T19:31:39Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9360</WindowHeight>
+  <WindowWidth>9705</WindowWidth>
+  <WindowTopX>270</WindowTopX>
+  <WindowTopY>630</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Лист1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="173" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="75.75" ss:DefaultRowHeight="15.75">
+   <Column ss:AutoFitWidth="0" ss:Width="156.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="186"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="193.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KEY</Data></Cell>
+    <Cell><Data ss:Type="String">ORIGINAL TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">TRANSLATED TEXT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_game_title</Data></Cell>
+    <Cell><Data ss:Type="String">Snake Path</Data></Cell>
+    <Cell><Data ss:Type="String">Snake Path</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_leaderboards</Data></Cell>
+    <Cell><Data ss:Type="String">World leaderboards</Data></Cell>
+    <Cell><Data ss:Type="String">World leaderboards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_leaderboard_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Best snake players</Data></Cell>
+    <Cell><Data ss:Type="String">Best snake players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_replays</Data></Cell>
+    <Cell><Data ss:Type="String">Replays</Data></Cell>
+    <Cell><Data ss:Type="String">Replays</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_replays_tt</Data></Cell>
+    <Cell><Data ss:Type="String">You best games</Data></Cell>
+    <Cell><Data ss:Type="String">You best games</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_settings</Data></Cell>
+    <Cell><Data ss:Type="String">Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_delet_replay_confirm</Data></Cell>
+    <Cell><Data ss:Type="String">You want delete replay</Data></Cell>
+    <Cell><Data ss:Type="String">You want delete replay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_play</Data></Cell>
+    <Cell><Data ss:Type="String">Play</Data></Cell>
+    <Cell><Data ss:Type="String">Play</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_play_TT</Data></Cell>
+    <Cell><Data ss:Type="String">Play to game</Data></Cell>
+    <Cell><Data ss:Type="String">Play to game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_play_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Play</Data></Cell>
+    <Cell><Data ss:Type="String">Play</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_leaderboards</Data></Cell>
+    <Cell><Data ss:Type="String">Leaderboards</Data></Cell>
+    <Cell><Data ss:Type="String">Leaderboards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_leaderboards_TT</Data></Cell>
+    <Cell><Data ss:Type="String">World leaderboards</Data></Cell>
+    <Cell><Data ss:Type="String">World leaderboards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_leaderboards_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Leaderboards</Data></Cell>
+    <Cell><Data ss:Type="String">Leaderboards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_replays</Data></Cell>
+    <Cell><Data ss:Type="String">Replays</Data></Cell>
+    <Cell><Data ss:Type="String">Replays</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_replays_TT</Data></Cell>
+    <Cell><Data ss:Type="String">Watch best games</Data></Cell>
+    <Cell><Data ss:Type="String">Watch best games</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_replays_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Replays</Data></Cell>
+    <Cell><Data ss:Type="String">Replays</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_settings</Data></Cell>
+    <Cell><Data ss:Type="String">Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_settings_TT</Data></Cell>
+    <Cell><Data ss:Type="String">Game settings</Data></Cell>
+    <Cell><Data ss:Type="String">Game settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_settings_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_quit</Data></Cell>
+    <Cell><Data ss:Type="String">Quit</Data></Cell>
+    <Cell><Data ss:Type="String">Quit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_quit_TT</Data></Cell>
+    <Cell><Data ss:Type="String">Close game</Data></Cell>
+    <Cell><Data ss:Type="String">Close game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_play_replay</Data></Cell>
+    <Cell><Data ss:Type="String">Watch</Data></Cell>
+    <Cell><Data ss:Type="String">Watch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_returnToMenu</Data></Cell>
+    <Cell><Data ss:Type="String">Return to menu</Data></Cell>
+    <Cell><Data ss:Type="String">Return to menu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_returnToMenu_TT</Data></Cell>
+    <Cell><Data ss:Type="String">Return to main menu</Data></Cell>
+    <Cell><Data ss:Type="String">Return to main menu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_returnToMenu_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Return to menu</Data></Cell>
+    <Cell><Data ss:Type="String">Return to menu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_play_replay_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Watch selected replay</Data></Cell>
+    <Cell><Data ss:Type="String">Watch selected replay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_screen_resolution</Data></Cell>
+    <Cell><Data ss:Type="String">Resolution</Data></Cell>
+    <Cell><Data ss:Type="String">Resolution</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_screen_resolution_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Window resolution size</Data></Cell>
+    <Cell><Data ss:Type="String">Window resolution size</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_window_type</Data></Cell>
+    <Cell><Data ss:Type="String">Window type</Data></Cell>
+    <Cell><Data ss:Type="String">Window type</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_window_type_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Game window type</Data></Cell>
+    <Cell><Data ss:Type="String">Game window type</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_fullscreen</Data></Cell>
+    <Cell><Data ss:Type="String">Fullscreen</Data></Cell>
+    <Cell><Data ss:Type="String">Fullscreen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_windowed</Data></Cell>
+    <Cell><Data ss:Type="String">Windowed</Data></Cell>
+    <Cell><Data ss:Type="String">Windowed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_borderless</Data></Cell>
+    <Cell><Data ss:Type="String">Borderless</Data></Cell>
+    <Cell><Data ss:Type="String">Borderless</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_quality</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics quality</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_quality_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics quality</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_low</Data></Cell>
+    <Cell><Data ss:Type="String">Low</Data></Cell>
+    <Cell><Data ss:Type="String">Low</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_medium</Data></Cell>
+    <Cell><Data ss:Type="String">Medium</Data></Cell>
+    <Cell><Data ss:Type="String">Medium</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_high</Data></Cell>
+    <Cell><Data ss:Type="String">High</Data></Cell>
+    <Cell><Data ss:Type="String">High</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_very_high</Data></Cell>
+    <Cell><Data ss:Type="String">Very high</Data></Cell>
+    <Cell><Data ss:Type="String">Very high</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_master</Data></Cell>
+    <Cell><Data ss:Type="String">Master volume</Data></Cell>
+    <Cell><Data ss:Type="String">Master volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_master_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Master volume</Data></Cell>
+    <Cell><Data ss:Type="String">Master volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_music</Data></Cell>
+    <Cell><Data ss:Type="String">Music volume</Data></Cell>
+    <Cell><Data ss:Type="String">Music volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_music_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Music volume</Data></Cell>
+    <Cell><Data ss:Type="String">Music volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_video</Data></Cell>
+    <Cell><Data ss:Type="String">Video volume</Data></Cell>
+    <Cell><Data ss:Type="String">Video volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_video_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Video volume</Data></Cell>
+    <Cell><Data ss:Type="String">Video volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_sounds</Data></Cell>
+    <Cell><Data ss:Type="String">Sounds volume</Data></Cell>
+    <Cell><Data ss:Type="String">Sounds volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_volume_sounds_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Sounds volume</Data></Cell>
+    <Cell><Data ss:Type="String">Sounds volume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_reset_settings</Data></Cell>
+    <Cell><Data ss:Type="String">Reset</Data></Cell>
+    <Cell><Data ss:Type="String">Reset</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_reset_settings_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Reset settings</Data></Cell>
+    <Cell><Data ss:Type="String">Reset settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_save_settings</Data></Cell>
+    <Cell><Data ss:Type="String">Save</Data></Cell>
+    <Cell><Data ss:Type="String">Save</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_save_settings_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Save settings</Data></Cell>
+    <Cell><Data ss:Type="String">Save settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_no</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_delete_replay</Data></Cell>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_delete_replay_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Delete selected replay</Data></Cell>
+    <Cell><Data ss:Type="String">Delete selected replay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_control_type</Data></Cell>
+    <Cell><Data ss:Type="String">Control type</Data></Cell>
+    <Cell><Data ss:Type="String">Control type</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_control_type_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Change control type</Data></Cell>
+    <Cell><Data ss:Type="String">Change control type</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_keyboard_mouse</Data></Cell>
+    <Cell><Data ss:Type="String">Keyboard &amp; mouse</Data></Cell>
+    <Cell><Data ss:Type="String">Keyboard &amp; mouse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_gamepad</Data></Cell>
+    <Cell><Data ss:Type="String">Gamepad</Data></Cell>
+    <Cell><Data ss:Type="String">Gamepad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_vsync</Data></Cell>
+    <Cell><Data ss:Type="String">V-Sync</Data></Cell>
+    <Cell><Data ss:Type="String">V-Sync</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_vsync_tt</Data></Cell>
+    <Cell><Data ss:Type="String">V-Sync</Data></Cell>
+    <Cell><Data ss:Type="String">V-Sync</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_show_fps</Data></Cell>
+    <Cell><Data ss:Type="String">Show FPS</Data></Cell>
+    <Cell><Data ss:Type="String">Show FPS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_show_fps_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Show FPS</Data></Cell>
+    <Cell><Data ss:Type="String">Show FPS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_discord_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Join to discord server</Data></Cell>
+    <Cell><Data ss:Type="String">Join to discord server</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_back</Data></Cell>
+    <Cell><Data ss:Type="String">Back</Data></Cell>
+    <Cell><Data ss:Type="String">Back</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_back_tt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_quit_message</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to close the game?</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to close the game?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_resume</Data></Cell>
+    <Cell><Data ss:Type="String">Resume</Data></Cell>
+    <Cell><Data ss:Type="String">Resume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_resume_TT</Data></Cell>
+    <Cell><Data ss:Type="String">Resume game</Data></Cell>
+    <Cell><Data ss:Type="String">Resume game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_resume_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Resume</Data></Cell>
+    <Cell><Data ss:Type="String">Resume</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_select_game</Data></Cell>
+    <Cell><Data ss:Type="String">Select game  type </Data></Cell>
+    <Cell><Data ss:Type="String">Select game  type</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_storymode</Data></Cell>
+    <Cell><Data ss:Type="String">Story mode</Data></Cell>
+    <Cell><Data ss:Type="String">Story mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_storymode_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Learn the story of a snake</Data></Cell>
+    <Cell><Data ss:Type="String">Learn the story of a snake</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_storymode_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Story mode</Data></Cell>
+    <Cell><Data ss:Type="String">Story mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_classicmode</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_classicmode_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Classic game mode</Data></Cell>
+    <Cell><Data ss:Type="String">Classic game mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_classicmode_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_ratingmode</Data></Cell>
+    <Cell><Data ss:Type="String">Competitive mode</Data></Cell>
+    <Cell><Data ss:Type="String">Competitive mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_ratingmode_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Competitive mode</Data></Cell>
+    <Cell><Data ss:Type="String">Competitive mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_ratingmode_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Competitive mode</Data></Cell>
+    <Cell><Data ss:Type="String">Competitive mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_classic_game</Data></Cell>
+    <Cell><Data ss:Type="String">Select level for play</Data></Cell>
+    <Cell><Data ss:Type="String">Select level for play</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_rating_game</Data></Cell>
+    <Cell><Data ss:Type="String">Select level for play</Data></Cell>
+    <Cell><Data ss:Type="String">Select level for play</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_00</Data></Cell>
+    <Cell><Data ss:Type="String">Temple of the search for Truth</Data></Cell>
+    <Cell><Data ss:Type="String">Temple of the search for Truth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_00_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Temple of the search for Truth</Data></Cell>
+    <Cell><Data ss:Type="String">Temple of the search for Truth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_00_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Temple of the search for Truth</Data></Cell>
+    <Cell><Data ss:Type="String">Temple of the search for Truth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_01</Data></Cell>
+    <Cell><Data ss:Type="String">Pyramid of broken hopes</Data></Cell>
+    <Cell><Data ss:Type="String">Pyramid of broken hopes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_01_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Pyramid of broken hopes</Data></Cell>
+    <Cell><Data ss:Type="String">Pyramid of broken hopes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_01_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Pyramid of broken hopes</Data></Cell>
+    <Cell><Data ss:Type="String">Pyramid of broken hopes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_02</Data></Cell>
+    <Cell><Data ss:Type="String">Jungle of tangled tracks</Data></Cell>
+    <Cell><Data ss:Type="String">Jungle of tangled tracks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_02_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Jungle of tangled tracks</Data></Cell>
+    <Cell><Data ss:Type="String">Jungle of tangled tracks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_02_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Jungle of tangled tracks</Data></Cell>
+    <Cell><Data ss:Type="String">Jungle of tangled tracks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_03</Data></Cell>
+    <Cell><Data ss:Type="String">Snowball of problems</Data></Cell>
+    <Cell><Data ss:Type="String">Snowball of problems</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_03_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Snowball of problems</Data></Cell>
+    <Cell><Data ss:Type="String">Snowball of problems</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_03_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Snowball of problems</Data></Cell>
+    <Cell><Data ss:Type="String">Snowball of problems</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_04</Data></Cell>
+    <Cell><Data ss:Type="String">Secret volcano</Data></Cell>
+    <Cell><Data ss:Type="String">Secret volcano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_04_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Secret volcano</Data></Cell>
+    <Cell><Data ss:Type="String">Secret volcano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_level_04_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Secret volcano</Data></Cell>
+    <Cell><Data ss:Type="String">Secret volcano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_change_camera_type</Data></Cell>
+    <Cell><Data ss:Type="String">Set camera mode</Data></Cell>
+    <Cell><Data ss:Type="String">Set camera mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_change_camera_type_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Select the type of camera mode change</Data></Cell>
+    <Cell><Data ss:Type="String">Select the type of camera mode change</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_by_holding</Data></Cell>
+    <Cell><Data ss:Type="String">By key holding</Data></Cell>
+    <Cell><Data ss:Type="String">By key holding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_by_pressing</Data></Cell>
+    <Cell><Data ss:Type="String">By key press</Data></Cell>
+    <Cell><Data ss:Type="String">By key press</Data></Cell>
+   </Row>
+   <Row ss:Height="12.75">
+    <Cell><Data ss:Type="String">ui_btn_credits</Data></Cell>
+    <Cell><Data ss:Type="String">Credits</Data></Cell>
+    <Cell><Data ss:Type="String">Credits</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_credits_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Show credits</Data></Cell>
+    <Cell><Data ss:Type="String">Show credits</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_credits_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Credits</Data></Cell>
+    <Cell><Data ss:Type="String">Credits</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_credits</Data></Cell>
+    <Cell><Data ss:Type="String">Credits</Data></Cell>
+    <Cell><Data ss:Type="String">Credits</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_credits_header</Data></Cell>
+    <Cell><Data ss:Type="String">Thanks for support :</Data></Cell>
+    <Cell><Data ss:Type="String">Thanks for support :</Data></Cell>
+   </Row>
+   <Row ss:Height="89.25">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ui_credits_text</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Milsy May&#10;Alanschezar&#10;LeonidasWhite&#10;TossedGuitar&#10;The Epster&#10;Shade&#10;joselitu</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Milsy May&#10;Alanschezar&#10;LeonidasWhite&#10;TossedGuitar&#10;The Epster&#10;Shade&#10;joselitu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="138.75">
+    <Cell><Data ss:Type="String">ui_legal_text</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2018 - 2020 Space Raccoon Game Studio. All rights reserved. Portions of this software are included under license 2004-2020 Crytek GmbH. All rights reserved. Crytek, and CRYENGINE are registered trademarks or trademarks of CRYTEK in the EU, the USA &amp; others territories. Made with FMOD Studio by Firelight Technologies Pty Ltd. All other marks are property of their respective owners.</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2018 - 2020 Space Raccoon Game Studio. All rights reserved. Portions of this software are included under license 2004-2020 Crytek GmbH. All rights reserved. Crytek, and CRYENGINE are registered trademarks or trademarks of CRYTEK in the EU, the USA &amp; others territories. Made with FMOD Studio by Firelight Technologies Pty Ltd. All other marks are property of their respective owners.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_starvingmode</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_starvingmode_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_starvingmode_cs</Data></Cell>
+    <Cell><Data ss:Type="String">You are very hungry - try to survive</Data></Cell>
+    <Cell><Data ss:Type="String">You are very hungry - try to survive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_starving_game</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_statistic</Data></Cell>
+    <Cell><Data ss:Type="String">Statistic</Data></Cell>
+    <Cell><Data ss:Type="String">Statistic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_statistic_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Your snake statistic</Data></Cell>
+    <Cell><Data ss:Type="String">Your snake statistic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_statistic_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Your snake statistic</Data></Cell>
+    <Cell><Data ss:Type="String">Your snake statistic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_statistic</Data></Cell>
+    <Cell><Data ss:Type="String">Statistic :</Data></Cell>
+    <Cell><Data ss:Type="String">Statistic :</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_gamescount_classic</Data></Cell>
+    <Cell><Data ss:Type="String">Games count in classic mode</Data></Cell>
+    <Cell><Data ss:Type="String">Games count in classic mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_gamescount_starving</Data></Cell>
+    <Cell><Data ss:Type="String">Games count in starving mode</Data></Cell>
+    <Cell><Data ss:Type="String">Games count in starving mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_gamescount_competitive</Data></Cell>
+    <Cell><Data ss:Type="String">Games count in competitive mode</Data></Cell>
+    <Cell><Data ss:Type="String">Games count in competitive mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_ingame_time</Data></Cell>
+    <Cell><Data ss:Type="String">Time spent in the game</Data></Cell>
+    <Cell><Data ss:Type="String">Time spent in the game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_minutes</Data></Cell>
+    <Cell><Data ss:Type="String">minute(s)</Data></Cell>
+    <Cell><Data ss:Type="String">minute(s)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_harvestedapples_count</Data></Cell>
+    <Cell><Data ss:Type="String">Harvested apples count</Data></Cell>
+    <Cell><Data ss:Type="String">Harvested apples count</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_maxsnakesize</Data></Cell>
+    <Cell><Data ss:Type="String">Max snake size</Data></Cell>
+    <Cell><Data ss:Type="String">Max snake size</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_path_lenght</Data></Cell>
+    <Cell><Data ss:Type="String">Snake path length</Data></Cell>
+    <Cell><Data ss:Type="String">Snake path length</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_meters</Data></Cell>
+    <Cell><Data ss:Type="String">meter(s)</Data></Cell>
+    <Cell><Data ss:Type="String">meter(s)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_death_count</Data></Cell>
+    <Cell><Data ss:Type="String">Death count</Data></Cell>
+    <Cell><Data ss:Type="String">Death count</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_competitive</Data></Cell>
+    <Cell><Data ss:Type="String">Сompetitive</Data></Cell>
+    <Cell><Data ss:Type="String">Сompetitive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_competitive_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Сompetitive mode</Data></Cell>
+    <Cell><Data ss:Type="String">Сompetitive mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_competitive_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Сompetitive mode</Data></Cell>
+    <Cell><Data ss:Type="String">Сompetitive mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_starving</Data></Cell>
+    <Cell><Data ss:Type="String">Starving</Data></Cell>
+    <Cell><Data ss:Type="String">Starving</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_starving_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_starving_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+    <Cell><Data ss:Type="String">Starving mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_classic</Data></Cell>
+    <Cell><Data ss:Type="String">Classic</Data></Cell>
+    <Cell><Data ss:Type="String">Classic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_classic_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_classic_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+    <Cell><Data ss:Type="String">Classic mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_graphics</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_graphics_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics settings</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_graphics_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics settings</Data></Cell>
+    <Cell><Data ss:Type="String">Graphics settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_audio</Data></Cell>
+    <Cell><Data ss:Type="String">Audio</Data></Cell>
+    <Cell><Data ss:Type="String">Audio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_audio_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Audio settings</Data></Cell>
+    <Cell><Data ss:Type="String">Audio settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_audio_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Audio settings</Data></Cell>
+    <Cell><Data ss:Type="String">Audio settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_gameplay</Data></Cell>
+    <Cell><Data ss:Type="String">Gameplay</Data></Cell>
+    <Cell><Data ss:Type="String">Gameplay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_gameplay_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Gameplay settings</Data></Cell>
+    <Cell><Data ss:Type="String">Gameplay settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_gameplay_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Gameplay settings</Data></Cell>
+    <Cell><Data ss:Type="String">Gameplay settings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_camera_mode</Data></Cell>
+    <Cell><Data ss:Type="String">Camera mode</Data></Cell>
+    <Cell><Data ss:Type="String">Camera mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_camera_mode_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Default camera mode</Data></Cell>
+    <Cell><Data ss:Type="String">Default camera mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_default</Data></Cell>
+    <Cell><Data ss:Type="String">Default</Data></Cell>
+    <Cell><Data ss:Type="String">Default</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_top</Data></Cell>
+    <Cell><Data ss:Type="String">Top</Data></Cell>
+    <Cell><Data ss:Type="String">Top</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_nav_helper</Data></Cell>
+    <Cell><Data ss:Type="String">Navigation helper</Data></Cell>
+    <Cell><Data ss:Type="String">Navigation helper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_nav_helper_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Help find red apple on map</Data></Cell>
+    <Cell><Data ss:Type="String">Help find red apple on map</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_enabled</Data></Cell>
+    <Cell><Data ss:Type="String">Enabled</Data></Cell>
+    <Cell><Data ss:Type="String">Enabled</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_disabled</Data></Cell>
+    <Cell><Data ss:Type="String">Disabled</Data></Cell>
+    <Cell><Data ss:Type="String">Disabled</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_skip_video</Data></Cell>
+    <Cell><Data ss:Type="String">Skip intro videos</Data></Cell>
+    <Cell><Data ss:Type="String">Skip intro videos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_skip_video_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Skip intro videos on game startup</Data></Cell>
+    <Cell><Data ss:Type="String">Skip intro videos on game startup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_brakects_classic</Data></Cell>
+    <Cell><Data ss:Type="String">[Classic]</Data></Cell>
+    <Cell><Data ss:Type="String">[Classic]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_brakects_competitive</Data></Cell>
+    <Cell><Data ss:Type="String">[Competitive]</Data></Cell>
+    <Cell><Data ss:Type="String">[Competitive]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_brakects_starving</Data></Cell>
+    <Cell><Data ss:Type="String">[Starving]</Data></Cell>
+    <Cell><Data ss:Type="String">[Starving]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_delete_save_confirm</Data></Cell>
+    <Cell><Data ss:Type="String">You want delete save</Data></Cell>
+    <Cell><Data ss:Type="String">You want delete save</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_save_confirm</Data></Cell>
+    <Cell><Data ss:Type="String">You want save current game?</Data></Cell>
+    <Cell><Data ss:Type="String">You want save current game?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_load</Data></Cell>
+    <Cell><Data ss:Type="String">Load game</Data></Cell>
+    <Cell><Data ss:Type="String">Load game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_load_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Load game</Data></Cell>
+    <Cell><Data ss:Type="String">Load game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_load_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Load game</Data></Cell>
+    <Cell><Data ss:Type="String">Load game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_save</Data></Cell>
+    <Cell><Data ss:Type="String">Save game</Data></Cell>
+    <Cell><Data ss:Type="String">Save game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_save_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Save game</Data></Cell>
+    <Cell><Data ss:Type="String">Save game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_btn_save_cs</Data></Cell>
+    <Cell><Data ss:Type="String">Save game</Data></Cell>
+    <Cell><Data ss:Type="String">Save game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_savings</Data></Cell>
+    <Cell><Data ss:Type="String">Game savings</Data></Cell>
+    <Cell><Data ss:Type="String">Game savings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_savings_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Game savings</Data></Cell>
+    <Cell><Data ss:Type="String">Game savings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_load_save</Data></Cell>
+    <Cell><Data ss:Type="String">Load</Data></Cell>
+    <Cell><Data ss:Type="String">Load</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_load_save_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Load selected save</Data></Cell>
+    <Cell><Data ss:Type="String">Load selected save</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_delete_save</Data></Cell>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ui_delete_save_tt</Data></Cell>
+    <Cell><Data ss:Type="String">Delete selected save</Data></Cell>
+    <Cell><Data ss:Type="String">Delete selected save</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75">
+    <Cell><Data ss:Type="String">ui_load_confirm</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Warning! If you load game - all you progress not will be added to leaderboards. Do you want load selected game?</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Warning! If you load game - all you progress not will be added to leaderboards. Do you want load selected game?</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>83</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>107</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

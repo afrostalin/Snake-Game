@@ -1,0 +1,16 @@
+<AudioSystemData name="particles" version="5" triggers="2">
+ <ImplData events="2"/>
+ <Triggers>
+  <Trigger name="Play_particle_fire_00">
+   <Event name="Particles/Play_particle_fire_00"/>
+  </Trigger>
+  <Trigger name="Play_particle_fire_01">
+   <Event name="Particles/Play_particle_fire_01"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

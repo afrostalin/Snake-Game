@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="ba90a267-22bf-9f68-fdc4-b56fca8c8251" source="" timestamp="1582462564">
+ <Files>
+  <File path="apple_debuff.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">9</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="9">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

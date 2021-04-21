@@ -1,0 +1,139 @@
+<ObjectLayer>
+ <Layer Name="keys" FullName="keys" GUID="64d47e84-ba80-1e4c-44eb-2d9ec2566899" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1593113743">
+  <LayerObjects>
+   <Object Type="EntityWithComponent" Layer="keys" LayerGUID="64d47e84-ba80-1e4c-44eb-2d9ec2566899" Id="095f8a53-ba21-f975-76a4-26fe3d48aa31" Name="key_1" Pos="61,27,34.225952" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="585c556c-f0bc-4b5e-a170-b374cbfd701c" TypeName="Snake::CKey" GUID="0db3ecde-4b27-22e7-d22a-5095e67d9fcd" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties>
+       <Aligned x="61" y="27" z="32.353065"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="keys" LayerGUID="64d47e84-ba80-1e4c-44eb-2d9ec2566899" Id="c8965223-722f-7bef-c399-3d3c29fecb27" Name="key_0" Pos="64.163841,31,33.543797" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="585c556c-f0bc-4b5e-a170-b374cbfd701c" TypeName="Snake::CKey" GUID="7a4ab81b-1832-f7d1-8bd7-b18b639247ef" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties>
+       <Aligned x="61" y="31" z="32.353065"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="keys" LayerGUID="64d47e84-ba80-1e4c-44eb-2d9ec2566899" Id="8018a91e-2531-00f7-547d-fae8d1d232cf" Name="key_2" Pos="31,33,36.810593" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="585c556c-f0bc-4b5e-a170-b374cbfd701c" TypeName="Snake::CKey" GUID="2c16470d-bc7a-9d34-94b8-3015a344f408" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties>
+       <Aligned x="31" y="33" z="32.353065"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="keys" LayerGUID="64d47e84-ba80-1e4c-44eb-2d9ec2566899" Id="909abaf7-f62f-5056-82f7-2d3a993f6a06" Name="Entity-26" Pos="13,33,31.982918" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="0839fce1-f221-4edb-a652-981d46b2bb52" TypeName="Snake::CSamurai" GUID="a4f8d0c8-ab2a-42eb-6118-dac611209ccc" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties>
+       <FieldParams>
+        <WorldPos x="13" y="33" z="32.353065"/>
+       </FieldParams>
+       <Params Health="100" VisionLenght="2" DamageLenght="1" AttackDelay="2" CharacterFile="objects/characters/samurai/samurai.cdf" Scale="2"/>
+       <AnimationParams Idle="idle" Attack="attack" Damaged="damage" Dead="death" StartAttack="attack_start" EndAttack="attack_end" EndDead="dead_end"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="370ff550-29cd-4992-8b79-72fe031a7ccb" TypeName="Snake::CBarrier" GUID="8e57d77d-dc44-1ce3-f45a-915d6915b059" Name="" UserAdded="false">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties BBoxSize="1">
+       <Aligned x="0" y="0" z="0"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Rope" Layer="keys" LayerGUID="64d47e84-ba80-1e4c-44eb-2d9ec2566899" Id="2f179bfe-b1a8-e5c0-dba4-1967fb0e237d" Name="Rope-1" Pos="28.342926,34.965298,35.612778" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" Material="Materials/snake/snaketail" MinSpec="0" MatLayersMask="0" EntityClass="RopeEntity" HasEntity="1">
+    <Rope flags="4107" radius="1" anchor_radius="0.1" num_seg="10" num_sides="10" texu="0.99999714" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="0" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="0" max_iters="650" max_time_step="0.02" stiffness="10" hardness="8" damping="0.2" sleepSpeed="0.039999999" sizeChange="0" smoothIters="2" segObjLen="1" segObjRot="0" segObjRot0="0" segObjAxis="3" segmentObj=""/>
+    <Properties />
+    <Points>
+     <Point Pos="-0.050247192,-4.7874794,0"/>
+     <Point Pos="0.050247192,4.7874794,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

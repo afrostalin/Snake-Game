@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="3c12f7cc-c133-f158-1dc3-79a8054a2a92" source="" timestamp="1594192041">
+ <Files>
+  <File path="snow_00.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/terrain/snow_01.dds</Path>
+ </Dependencies>
+</AssetMetadata>

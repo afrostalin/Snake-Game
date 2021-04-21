@@ -1,0 +1,7 @@
+<Material MtlFlags="526336" Shader="Watervolume" GenMask="80000012" StringGenMask="" SurfaceType="mat_water" MatTemplate="" Diffuse="0.14126332,0.14126332,0.14126332" Specular="0.0018211621,0.21952623,0.16826943" Opacity="1" Shininess="233" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Specular" File="textures/generic/water/water_glossmap.tif" Filter="7"/>
+  <Texture Map="Environment" File="textures/cubemaps/chinesegarden/environmentprobe1-2_cm.dds"/>
+ </Textures>
+ <PublicParams NormalsScale="0.1" GlossMapTilling="5.7389998" SoftIntersectionFactor="0.62" Tilling="0.07" DetailNormalsScale="0.50700003" GlossMapBias="1" EnvCubeReflMul="1.8099999" VertexWaveScale="0.13500001" DetailTilling="6.3000002" EnvCubeScale="77.599998" GlossMapScale="2.214" RealtimeReflMul="0" RainTilling="0.082999997" WaterFlowSpeed="0"/>
+</Material>

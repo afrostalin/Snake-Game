@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="95723472-9cdd-815d-574d-96c3627ec086" timestamp="1580065620">
+ <Files>
+  <File path="sky_01.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/skies/sky_3.dds</Path>
+ </Dependencies>
+</AssetMetadata>

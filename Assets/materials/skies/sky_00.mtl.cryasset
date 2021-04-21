@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="66fa9226-35ba-40a4-bc09-165cdac18def" timestamp="1578753289">
+ <Files>
+  <File path="sky_00.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/skies/cgskies_0130_free.dds</Path>
+ </Dependencies>
+</AssetMetadata>

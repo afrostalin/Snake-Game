@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="2a3028c2-c32c-f0dc-9ab3-5de9b30430d3">
+ <Files>
+  <File path="vegie.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="7">%engine%/engineassets/textures/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="b8f45ba1-be7d-4a53-a120-6a7d7dd3cd61">
+ <Files>
+  <File path="tree_bushy.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">29288</Detail>
+  <Detail name="vertexCount">87841</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vegie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>
